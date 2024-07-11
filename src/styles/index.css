@@ -1,0 +1,44 @@
+.app.light {
+  --bg-color: #ffffff;
+  --primary-color: #032cc6;
+  --secondary-color: #0939f1;
+}
+
+.app.dark {
+  --bg-color: #001650;
+  --primary-color: #8bbd8b;
+  --secondary-color: #0b670b;
+}
+
+:root {
+  --font-family-main: Consolas,Serif;
+  --font-size-m: 16px;
+  --font-line-m: 24px;
+  --font-m:var(--font-size-m)/var(--font-line-m) var(--font-family-main);
+  --font-size-l: 24px;
+  --font-line-l: 32px;
+  --font-l:var(--font-size-l)/var(--font-line-l) var(--font-family-main);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  font: inherit;
+}
+
+.app {
+  font: var(font-m);
+  background: var(--bg-color);
+  color: var(--primary-color);
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=index.css.map */
