@@ -1,8 +1,10 @@
 :root {
   --bg-color: #e8e8ea;
   --inverted-bg-color: #090949;
-  --primary-color: #032cc6;
-  --secondary-color: #0939f1;
+  --primary-color: #001985;
+  --secondary-color: #0035ff;
+  --inverted-primary-color: #8bbd8b;
+  --inverted-secondary-color: #0b670b;
 }
 
 .app.dark {
@@ -10,6 +12,8 @@
   --inverted-bg-color: #e8e8ea;
   --primary-color: #8bbd8b;
   --secondary-color: #0b670b;
+  --inverted-primary-color: #001985;
+  --inverted-secondary-color: #0035ff;
 }
 
 :root {
@@ -20,7 +24,9 @@
   --font-size-l: 24px;
   --font-line-l: 32px;
   --font-l:var(--font-size-l)/var(--font-line-l) var(--font-family-main);
-  --navbar-height:50px ;
+  --navbar-height:50px;
+  --sidebar-width:300px;
+  --sidebar-width-collapsed:80px;
 }
 
 * {
@@ -42,6 +48,15 @@ select {
   background: var(--bg-color);
   color: var(--primary-color);
   min-height: 100vh;
+}
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */
