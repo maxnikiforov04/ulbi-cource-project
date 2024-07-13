@@ -1,11 +1,13 @@
-.app.light {
-  --bg-color: #ffffff;
+:root {
+  --bg-color: #e8e8ea;
+  --inverted-bg-color: #090949;
   --primary-color: #032cc6;
   --secondary-color: #0939f1;
 }
 
 .app.dark {
-  --bg-color: #001650;
+  --bg-color: #090949;
+  --inverted-bg-color: #e8e8ea;
   --primary-color: #8bbd8b;
   --secondary-color: #0b670b;
 }
@@ -18,6 +20,7 @@
   --font-size-l: 24px;
   --font-line-l: 32px;
   --font-l:var(--font-size-l)/var(--font-line-l) var(--font-family-main);
+  --navbar-height:50px ;
 }
 
 * {
